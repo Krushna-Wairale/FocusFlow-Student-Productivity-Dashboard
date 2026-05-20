@@ -63,8 +63,8 @@ This project helped me improve my understanding of:
 - UI/UX Development
 ---
 
-# 👨‍💻 Build By
-~ Krushna Wairale
+## 👨‍💻 Built By
+Krushna Wairale
 ---
 
-## Live Demo - 
+## 🌐 Live Demo - https://krushna-wairale.github.io/FocusFlow-Student-Productivity-Dashboard/
