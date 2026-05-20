@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <div class="nav-left">
+        <h2>FocusFlow</h2>
+      </div>
+
+      <div class="nav-right">
+        <span class="welcome-text">Student Productivity Dashboard</span>
+      </div>
+
+      
+      <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <!-- // Quote Section -->
+    <section id="quote-section">
+      <h2>Quote Generator</h2>
+
+      <!-- Button -->
+      <button id="quote-btn">Quote of the Day</button>
+
+      <!-- Quote Display -->
+      <div id="quote-container">
+        <p id="quote-text"></p>
+        <p id="quote-author"></p>
+      </div>
+    </section>
+
+    <!-- // Weather Section -->
+    <section id="weather-section">
+      <h2>Weather App</h2>
+
+      <!-- Input Area -->
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Enter city name..." />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <!-- Weather Display Area -->
+      <div id="weather-result">
+        <h3 id="city-name">City Name</h3>
+
+        <!-- Cards container -->
+        <div class="weather-cards">
+          <p id="temperature">Temperature: --°C</p>
+          <p id="SunriseTime">Sunrise time: --</p>
+          <p id="SunsetTime">Sunset time: --</p>
+          <p id="description">Condition: --</p>
+          <p id="humidity">Humidity: --%</p>
+          <p id="wind-speed">Wind Speed: -- km/h</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- // Todo Section -->
+    <section class="todo-section">
+      <h2>To Do Section</h2>
+
+      <div class="todo-input">
+        <input id="inputtask" type="text" placeholder="Enter a task..." />
+        <button id="addbtn">Add</button>
+      </div>
+
+      <ul id="listitem"></ul>
+    </section>
+
+    <!-- // Notes Section -->
+    <section id="notes-section">
+      <h2>Notes</h2>
+
+      <!-- Input Row -->
+      <div class="add-note-area">
+        <textarea
+          id="note-input"
+          placeholder="Write your note here..."
+        ></textarea>
+        <button id="add-note-btn">Add Note</button>
+      </div>
+
+      <!-- Notes -->
+      <div id="notes-container"></div>
+    </section>
+
+    <!-- // Stopwatch Section -->
+    <section id="stopwatch-section">
+      <h2>Stopwatch</h2>
+
+      <!-- Time Display -->
+      <h1 id="stopwatch-display">00:00:00</h1>
+
+      <!-- Control Buttons -->
+      <button id="start-stopwatch">Start</button>
+      <button id="stop-stopwatch">Stop</button>
+      <button id="reset-stopwatch">Reset</button>
+    </section>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
